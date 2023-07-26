@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>CHIANG STORE</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<div id="full">
+
+		<div id="menu">
+			<div class="mobile-menu-btn" onClick="showNav()">
+				<i class="menu-icon ti-menu"></i>
+			</div>
+			<div class="nav-bar" id="nav-bar" onclick="showNav()" onmouseleave="hideNav()">
+				<ul>
+					<li>Trang chủ</li>
+					<li>Giới thiệu</li>
+					<li>Sản phẩm</li>
+					<li>Về chúng tôi</li>
+					<li>Đăng xuất</li>
+				</ul>
+			</div>
+			<div id="chon">
+				<ul class="hii">
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Giới thiệu</a></li>
+					<li><a href="Cart.html">Sản phẩm</a></li>
+					<li><a href="#">Về chúng tôi</a></li>
+				</ul>
+			</div>
+			<div class="chon-r">
+				<div class="hiii">
+					<a href="#">Đăng nhập |</a>
+					<a href="Signup.html">Đăng kí</a>
+				</div>
+				<div class="search">
+					<input style="margin-right: 2px; font-size: 15px; padding: 2px; margin-bottom: 3px;" class="nav"
+						type="text" placeholder=" Bạn cần tìm gì..."> <i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+				<div class='cart' onmouseenter="showCart()" onmouseleave="hideCart()">
+					<i class="ti-shopping-cart"></i>
+				</div>
+				<div class="sub-cart" id="sub-cart" onmouseenter="showCart()" onmouseleave="hideCart()">
+					<div style="color: #929292;padding: 5px 10px">Sản phẩm mới thêm</div>
+					<div class="getData_cart">
+
+					</div>
+					<button class="btnClear_cart">CLEAR ALL CART</button>
+				</div>
+			</div>
+		</div>
+		<div id="banner2">
+			<img src="https://thietkehaithanh.com/wp-content/uploads/2013/08/thietkehaithanh-banner1.jpg"
+				alt="Hinh banner2" width="100%" height="300px" />
+				<div class="container-toast">	
+					<div id="toast"></div>
+			</div> 
+		</div>
+	</div>
+	<div class="container-home">
+		<div class="dmuc">
+			<h1>Danh mục</h1>
+			<div class="sub-dmuc">
+				<div class="sub-nav">Sản phẩm nổi bật</div>
+				<div class="sub-nav">Sản phẩm mới ra mắt</div>
+				<div class="sub-nav">Sản phẩm bán chạy</div>
+				<div class="sub-nav">Sản phẩm giá rẻ</div>
+				<div class="sub-nav">Sản phẩm chất lượng cao</div>
+				<div class="sub-nav">Giày các loại</div>
+				<div class="sub-nav">Dép các loại</div>
+				<div class="sub-nav">Váy</div>
+				<div class="sub-nav">Quần Áo </div>
+				<div class="sub-nav">Tất</div>
+				<div class="sub-nav">Phụ kiện</div>
+				<div class="sub-nav">Thông tin liên hệ</div>
+				<div class="sub-nav">Nguồn gốc</div>
+				<div class="sub-nav" style="border-bottom: 1px solid #fff;">Sản phẩm giới hạn</div>
+
+			</div>
+			<img src="" alt="">
+			<p><b></b></p>
+		</div>
+		<div class="product">
+			<div class="hot">
+				<h1>Sản Phẩm Nổi Bật</h1>
+			</div>
+			<div class="all-sub-product">
+				<div class="sub-product" data-id="1">
+					<img class="imgcontent" src="images/product/1.jpg" alt="" />
+					<p><b>Sữa tươi TH TRUE MILK</b></p>
+					<p id="price">36.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="2">
+					<img class="imgcontent" src="images/product/2.jpg" alt="" />
+					<p><b>Sữa đậu nành FAMI canxi</b></p>
+					<p id="price">31.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="3">
+					<img class="imgcontent" src="images/product/3.jpg" alt="" />
+					<p><b>Sữa đậu nành FAMI</b></p>
+					<p id="price">26.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+
+				<div class="sub-product" data-id="4">
+					<img class="imgcontent" src="images/product/4.jpg" alt="Halan cđ" />
+					<p><b>Sữa CÔ GÁI HÀ LAN</b></p>
+					<p id="price">37.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="5">
+					<img class="imgcontent" src="images/product/5.jpg" alt="Haln kđ" />
+					<p><b>Sữa CÔ GÁI HÀ LAN dâu </b></p>
+					<p id="price">37.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="6">
+					<img class="imgcontent" src="images/product/6.jpg" alt="Halan socola" />
+					<p><b>Sữa CÔ GÁI HÀ LAN socola</b></p>
+					<p id="price">38.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="7">
+					<img class="imgcontent" src="images/product/7.jpg" alt="Halan dau" />
+					<p><b>Sữa CÔ GÁI HÀ LAN cam</b></p>
+					<p id="price">38.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="8">
+					<img class="imgcontent" src="images/product/8.jpg" alt="suachuauong" />
+					<p><b>Sữa chua uống YOMILK cam</b></p>
+					<p id="price"> 32.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+
+
+				<div class="sub-product" data-id="9">
+					<img class="imgcontent" src="images/product/9.jpg" alt="yomostluu" />
+					<p><b> Sữa chua YOMOST vị lựa </b></p>
+					<p id="price"> 34.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="10">
+					<img class="imgcontent" src="images/product/10.jpg" alt="suaemborg" />
+					<p><b>Sữa tươi EMBORG ngon </b></p>
+					<p id="price"> 40.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="11">
+					<img class="imgcontent" src="images/product/Balomini01.jpg" alt="suagrowplus" />
+					<p><b>Sữa GROW PLUS đỏ HAGL</b></p>
+					<p id="price"> 52.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="12">
+					<img class="imgcontent" src="images/product/Balomini02.jpg" alt="suamilo" />
+					<p><b>Sữa lúa mạch MILO Nestle</b></p>
+					<p id="price"> 37.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="13">
+					<img class="imgcontent" src="images/product/Balomini03.jpg" alt="suaoccho" />
+					<p><b>Sữa đậu nành óc chó</b></p>
+					<p id="price"> 40.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+
+
+				<div class="sub-product" data-id="14">
+					<img class="imgcontent" src="images/product/Balomini04.jpg" alt="th idivuong" />
+					<p><b>Sữa tươi ít đường TH TRUE MILK </b></p>
+					<p id="price"> 32.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="15">
+					<img class="imgcontent" src="images/product/Balomini05.jpg" alt="vinamilkcd" />
+					<p><b>Sữa tươi có đường VINAMILK </b></p>
+					<p id="price"> 33.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="16">
+					<img class="imgcontent" src="images/product/Dep1.jpg" alt="vinamilkkd" />
+					<p><b>Sữa tươi không đường VINAMILK </b></p>
+					<p id="price"> 32.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="17">
+					<img class="imgcontent" src="images/product/Dep2.jpg" alt="sualongthanh" />
+					<p><b>Sữa tươi LOTHAMILK hương dâu</b></p>
+					<p id="price"> 39.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="18">
+					<img class="imgcontent" src="images/product/Dep3.jpg" alt="suamocchau" />
+					<p><b>Sữa tươi thanh trùng MỘC CHÂU </b></p>
+					<p id="price"> 38.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+
+
+				<div class="sub-product" data-id="19">
+					<img class="imgcontent" src="images/product/Dep4.jpg" alt="suanuvi" />
+					<p><b>Sữa tươi trái cây tươi NUVI </b></p>
+					<p id="price"> 30.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+				<div class="sub-product" data-id="20">
+					<img class="imgcontent" src="images/product/Dep5.jpg" alt="suapromess" />
+					<p><b>Sữa tươi nguyên kem PROMESS</b></p>
+					<p id="price"> 42.000<b>đ</b></p>
+					<button class="add-to-cart">ĐẶT HÀNG</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	
+
+	<div class="footer">
+		<table>
+			<tr>
+				<td class="f1"><img alt="logo" src="images/home/CHIANG.png" height="80px"> </td>
+
+				<td class="f1">
+					• Chiang Store <br>
+					• Địa chỉ: 465 Nguyễn Văn Công Phường 3 Gò Vấp Tp HCM<br>
+					• Email : tdm4565@gmail.com<br>
+					• Hotline: 0793195802<br>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+<script type="text/Javascript" src="assets/js/home.js"></script>
+
+</html>

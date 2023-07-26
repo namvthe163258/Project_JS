@@ -1,0 +1,64 @@
+*{
+    background-color: f5f5f5 !important;
+}
+
+.cart-page{
+    display: flex;
+    background-color: fff;
+    height: 110px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.09);
+    height: 6.25rem;
+}
+
+.cart-page-l{
+    display: flex;
+    gap: 10px;
+    color: orangered;
+    float: left;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.cart-page-r{
+    float: right;
+    width: 50%;
+    margin-right: 300px;
+    height: 45px;
+
+}
+
+.cart-page-l #a{
+    font-size: 30px;
+    height: 45px;
+
+}
+
+.cart-page-l #b{
+    font-size: 30px;
+    height: 45px;
+
+}
+
+.cart-page-l #c{
+    font-size: 30px;
+    font-weight: 20px;
+    height: 45px;
+
+}
+
+.cart-page-r input{
+  width: 460px;
+  height: 45px;
+  border-color: orangered  !important;
+  border-style: double;
+}
+
+.cart-page-r button{
+    border-color: orange;
+    height: 45px;
+    width: 75px;
+    color: white;
+    background: orangered;
+    margin-right: 20px;
+}

@@ -1,0 +1,489 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+.hii a{
+	color:  white;
+	font-weight: bolder;
+	font-size: 17px;
+}
+
+
+
+.hiii a{
+	font-weight: bolder;
+	color: white ;
+	font-size: 17px;
+}
+
+.hiii{
+	padding: 13px;
+}
+
+.clear{
+	clear: both;
+}
+
+#head{
+	width: 100%;
+	height: 220px;
+	background-color: white;
+}
+#logo{
+	width: 15%;
+	float: left;
+}
+#logo img{
+	width: 100%;
+    height: 250px;
+}
+#banner{
+	width: 85%;
+	height: 254px;
+	text-align: center;
+	float: right;
+}
+#banner img{
+	width: 100%;
+}
+
+#menu{
+	width: 100%;
+	height: 50px;
+	background-color:orangered;
+	display: flex;
+	border-top: 1px solid;
+	position: sticky;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+}
+#chon{
+	width: 65%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	padding-top: 15px;
+}
+
+.chon-r{
+   display: flex;
+   flex-direction: row-reverse;
+   gap:10px;
+	margin-left: 89px;
+}
+
+.search i{
+    margin-right: 30px ;
+	font-size: 19px;
+}
+
+.search{
+	padding: 13px;
+}
+
+
+.cart i{
+	color: #f5f5f5;
+	font-size: 35px;
+}
+
+.cart{
+	padding: 6px;
+	margin-right: 40px;
+	position: relative;
+}
+
+.sub-cart{
+	display: none;
+	position:absolute;
+	width: 480px;
+	min-height: 230px;
+	background: white;
+	margin-right: 497px;
+    margin-top: 41px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	z-index: 1;
+}
+
+.sub-cart.active {
+	display: block; /* hiển thị sub-cart khi có class active */
+ }
+
+ .btnClear_cart{
+	padding: 10px; color:aliceblue; 
+	border: none ;
+	border-radius: 3px;
+	float: right;
+	margin-right: 5px;
+	color:#fff;
+	background-color:orangered;
+	border-color: #ccc;
+}
+
+.cart-img{
+	height: 45px;
+	width: 45px;
+}
+.cart-name{
+}
+
+.cart-quantity{
+}
+
+.cart-price{
+	color: orangered;
+
+}
+
+.notifi{
+    font-style: italic;
+    font-weight: 500;
+    font-family: system-ui;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.notifi img{
+	height: 141px;
+    width: 169px;
+	margin-left: 150px;
+}
+
+
+
+.getData-cart1{
+	display: flex;
+	gap: 20px;
+	padding: 8px;
+	flex-wrap: wrap;
+	margin-left: 20px;
+	flex-direction: row;
+}
+
+.getData-cart1:hover{
+	background-color: #e9e4e4;
+	opacity: 1.5;
+}
+
+.mini-product{
+	display:flex;
+	gap:20px;
+	padding: 8px;
+}
+
+ul{
+	list-style: none;
+	margin-top: 0;
+}
+li{
+	display:inline;
+	float: left;
+	margin-left: 15px;
+	padding: 0 20px;
+}
+a{
+	color: gray;
+	text-decoration: none;
+}
+
+#banner2 img{
+	height: 450px;
+}
+
+.container-home{
+	display: flex;
+	line-height: 45px;
+	font-size: 18px;
+}
+
+.dmuc{
+	width:15%;
+	padding: 20px 30px;
+	background-color:orangered;
+	color:  white;
+}
+
+
+.dmuc h1{
+	text-align: center;
+	padding: 20px;
+	font-weight: 5000;
+	color: white;
+}
+
+.product{
+	flex:1;
+}
+
+.product{
+	background-color: antiquewhite;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+}
+
+.all-sub-product .sub-product img{
+   width: 300px !important;
+   height: 300px !important;
+   padding: 20px 20px;	
+}
+
+.all-sub-product{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-bottom: 80px;
+    padding-left: 40px;
+	margin-top: 20px;
+}
+
+.sub-product {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:300px;
+	height: 433px;
+	background: rgb(252, 248, 244);
+    margin: 5px;
+	padding-bottom: 20px;
+}
+
+.sub-dmuc .sub-nav {
+	/* border-bottom: 1px solid #000000; */
+	border-top: 1px solid #fff;
+	padding: 0 10px;
+}
+
+.sub-dmuc .sub-nav:hover{
+	background-color: rgb(231, 164, 139);
+	opacity: initial;
+}
+
+.sub-product button{
+	padding: 10px 50px;
+	color:#fff;
+	background-color:orangered;
+	border-color: #ccc;
+}
+
+
+.sub-product #price{
+	color: tomato;
+}
+
+.hot{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: orangered;
+	border-bottom: 4px solid orangered;
+}
+
+.footer{
+	padding: 20px;
+    background: #f5f5f5;
+}
+
+.footer table {
+	margin: 0 auto;
+}
+
+.mobile-menu-btn{
+	padding: 15px;
+	font-size: 20px;
+	color:aliceblue;
+	display: none;
+	position: relative;
+}
+
+body{
+	max-width: 100%;
+	/* overflow-x: hidden; */
+
+}
+
+.nav-bar{
+	flex-direction: column;
+	background:orangered;
+	width: 200px;
+	height: 295px;
+	position: absolute;
+	margin-left: 49px;
+	color: aliceblue;
+	z-index: 1;
+	display: none;
+}
+
+.nav-bar li{
+	padding: 20px;
+	width: 90%;
+}
+
+.nav-bar li:hover{
+	background-color: rgb(231, 164, 139);
+	opacity: initial;
+}
+
+.nav-bar.active{
+	display: block;
+}
+
+
+
+@media screen and (max-width: 768px){
+	.dmuc{
+		display: none;
+	}
+    .search{
+		display: none;
+	}
+
+	.hii > li{
+		display:none;
+	}
+
+	.chon-r{
+		margin-right: 30px;
+		width: 20000px;
+	}
+
+	.hiii a {
+		height: 49px;
+	}
+
+	#banner2 img{
+		display: none;
+	}
+
+	.hot{
+		border-bottom: none;
+		text-align: center;
+	}
+
+	.sub-product{
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+
+	.mobile-menu-btn{
+		display: block;
+	}
+
+	.mobile-menu-btn:hover{
+		background-color:#000;
+		opacity: 0.5;
+		cursor: pointer;
+
+	}
+
+	.sub-cart{
+		/* display: block; */
+		margin: auto;
+		margin-top: 50px;
+		margin-right: 25px;
+	}
+
+}
+
+
+/* -----------------Toast Message-------------- */
+.toast{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+	max-width: 380px;
+    border-left: 8px solid ;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+    padding: 20px 0;
+	animation: all linear 0.3s;
+	position: sticky;
+	z-index: 999;	
+	transform: translateX(398%);
+
+
+}
+
+
+
+.container-toast{
+	position: absolute;
+    height: 100%;
+    width: 380px;
+    max-width: 380px;
+}
+
+
+
+
+.toast + .toast{
+    margin-top: 24px;
+}
+
+.toast__icon{
+font-size: 24px;
+padding: 0 20px;
+}
+
+.toast__title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.toast__msg{
+ font-size: 16px;
+ color: #888;
+
+}
+
+.toast__close{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+	margin-left: 100px;
+	margin-top: -40px;
+}
+
+.toast__close,
+.toast__close{
+   padding: 0 16px;
+}
+
+.toast--success{
+ border-color: #47d864 ;
+}
+
+.toast--success .toast__icon{
+  color: #47d864;
+}
+
+
+
+@keyframes slideInLeft{
+	from{
+		opacity: 0;
+		transform: translateX(500%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(398%);
+	}
+}
+
+@keyframes fadeOut {
+	to{
+		opacity: 0;
+	}
+}

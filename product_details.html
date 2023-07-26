@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product details</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/p_details.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/themify-icons/themify-icons.css">
+</head>
+<body>
+  <div id="menu">
+    <!-- <div class="mobile-menu-btn">
+      <i class="menu-icon ti-menu"></i>
+    </div> -->
+    <div id="chon">
+      <ul class="hii">
+        <li><a href="home.html">Trang chủ</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Về chúng tôi</a></li>
+      </ul>
+    </div>
+    <div class="chon-r">
+      <div class="hiii">
+        <a href="#">Đăng nhập |</a>
+        <a href="#">Đăng kí</a>
+      </div>
+      <div class="search">
+        <input style="margin-right: 2px; font-size: 15px; padding: 2px; margin-bottom: 3px;" class="nav" type="text"
+          placeholder=" Bạn cần tìm gì..."> <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+      <div class='cart' onmouseenter="showCart()" onmouseleave="hideCart()">
+        <i class="ti-shopping-cart"></i>
+      </div>
+      <div class="sub-cart" id="sub-cart" onmouseenter="showCart()" onmouseleave="hideCart()">
+        <div style="color: #929292;padding: 5px 10px">Sản phẩm mới thêm</div>
+        <div class="getData_cart">
+          
+        </div>
+        <button class="btnClear_cart">CLEAR ALL CART</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-detail">
+    <div class="product-left">
+      <div class="sub_l_1"><img src=""></div>
+      <div class="sub_l_2">
+        <img src="images/product/2.jpg" alt="">
+        <img src="images/product/3.jpg" alt="">
+        <img src="images/product/4.jpg" alt="">
+        <img src="images/product/5.jpg" alt="">
+        <img src="images/product/6.jpg" alt="">
+      </div>
+      <div class="sub_l_3">
+       <div class=" sub_l_3_1"> 
+        <p>Chia sẻ:</p>
+        <i style="color:royalblue" class="ti-facebook"></i>
+        <i style="color:aqua" class="ti-twitter-alt"></i>
+        <i style="color: tomato" class="ti-instagram"></i>
+        <i style="color:red" class="ti-pinterest-alt"></i>
+      </div>
+        <div class=" sub_l_3_2">
+          <p>|</p>
+        </div>
+       <div class=" sub_l_3_3">
+        <i style="color:tomato" class="ti-heart"></i>
+        <p>Đã thích (5,3k)</p>
+       </div>
+      </div>
+    </div>
+    <div class="product-right">
+      <div class="title">
+        <p id="a">Yêu thích</p>
+        <p id="b"></p>
+      </div>
+
+      <div class="vote-selled">
+        <div class="a">
+          <div class="voted">
+            <p>4.7 </p>
+        <div>
+          <i style="color:orangered;;" class="ti-star"></i>
+          <i style="color:orangered" class="ti-star"></i>
+          <i style="color:orangered" class="ti-star"></i>
+          <i style="color:orangered" class="ti-star"></i>
+          <i class="ti-star"></i>
+        </div>
+          </div>
+        <p>|</p>
+        <p>628 đánh giá</p>
+        <p>|</p>
+        <p>2,2k Đã bán <i class="ti-shopping-cart"></i> </p>
+        </div>
+      </div>
+
+      <div class="price">
+        <p id="x"></p>
+        <p id="y"></p>
+        <div><p id="z">20% giảm</p></div>
+      </div>
+
+      <div class="safety">
+        <p class="same-color">Bảo hiểm</p> 
+        <p>Bảo hiểm thời trang</p>
+        <a style="color:dodgerblue" href="#">Tìm hiểu thêm</a>
+      </div>
+
+      <div class="delivery">
+        <p class="same-color">Vận chuyển</p>
+        <div class="sub-delivery">
+          <div id="c">
+            <p>Miễn phí vận chuyển</p>
+          </div>
+          <div id="a">
+            <p class="same-color"><i style="color:turquoise" class="ti-car"></i> Vận chuyển tới</p> 
+          <p>Quận Hà Đông, Hà Nội <i class="ti-angle-down"></i></p>
+          </div>
+          <div id="b">
+            <p class="same-color" >Phí vận chuyển</p> 
+          <p>đ0- đ22.000 <i class="ti-angle-down"></i></p> 
+          </div>
+        </div>
+      </div>
+
+      <div class="colorable">
+         <p class="same-color">Màu sắc</p>
+         <div class="sub-color">
+          <p>Nâu Nhạt</p>
+          <P>Nâu Đậm</P>
+          <P>Trắng</P>
+          <P>Xanh</P>
+          <P>Đen</P>
+         </div>
+      </div>
+
+      <div class="size">
+        <p class="same-color">Kích Cỡ</p>
+        <div class="sub-size">
+          <p>S</p>  
+          <p>M</p>
+          <p>L</p>
+          <p>XL</p>
+        </div>
+      </div>
+
+      <div class="quantity">
+        <p class="same-color">Số lượng</p>
+        <div class="calc">
+          <p>-</p>  
+          <p id="a">1</p>
+          <p>+</p>          
+        </div>
+        <p style="	color: #757575;">543 sản phẩm có sẵn</p>
+      </div>
+
+      <div class="cart-detail">
+        <p id="a"><i style="color: orangered;" class="ti-shopping-cart"></i>Thêm Vào Giỏ Hàng</p>
+        <p id="b">Mua Ngay</p>    
+      </div>
+
+
+    </div>
+  </div>
+  <script type="text/Javascript" src="assets/js/p_detail.js"></script>
+</body>
+<script type="text/Javascript" src="assets/js/home.js"></script>
+</html>
