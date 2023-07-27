@@ -174,7 +174,7 @@ function toast(
     const delay = (duration / 1000).toFixed(2);
 
     toast.classList.add("toast", `toast--${type}`);
-    toast.style.animation = `slideInLeft ease .3s, fadeOut linear 1s ${delay}s forwards`;
+    toast.style.animation = `slideInLeft ease .3s, fadeOut linear 0.1s ${delay}s forwards`;
 
     toast.innerHTML = `
                     <div class="toast__icon">
@@ -196,7 +196,7 @@ function showSuccessToast() {
     title: "Success!",
     message: "Add a item to cart success.",
     type: "success",
-    duration: 3000
+    duration: 5000
   });
 }
 
