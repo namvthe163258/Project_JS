@@ -308,7 +308,8 @@ a{
 
 body{
 	max-width: 100%;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
+
 }
 
 .nav-bar{
@@ -405,20 +406,22 @@ body{
 	max-width: 380px;
     border-left: 8px solid ;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
-    padding: 17px 0;
+    padding: 20px 0;
 	animation: all linear 0.3s;
 	position: sticky;
-	z-index: 99;	
+	z-index: 999;	
 	transform: translateX(398%);
+
+
 }
 
 
+
 .container-toast{
-	position: sticky;
+	position: absolute;
+    height: 100%;
+    width: 380px;
     max-width: 380px;
-	z-index: 22;
-	right: 30px;
-	bottom: 30px;
 }
 
 
