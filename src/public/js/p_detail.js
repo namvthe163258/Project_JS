@@ -46,11 +46,12 @@ const displayImg = document.querySelector('.sub_l_1');
       const url = new URL(window.location.href)
       const params = new URLSearchParams(url.search)
       const urlID = params.get('id')
+
       if(p.id == urlID){
         displayTitle.innerHTML = `<div>${p.title}</div>`
         displayPriceOld.innerHTML = `<div>${(parseFloat(p.price) + parseFloat(p.price)*20/100).toFixed(3)}đ</div>`
         displayPrice.innerHTML = `<div>${p.price}</div>`
-        displayImg.innerHTML = `<img src="${p.img}" alt="">`
+        displayImg.innerHTML = `<img src="../../../${p.img}" alt="">`
       }
     })
   })()
