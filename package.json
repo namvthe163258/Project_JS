@@ -1,9 +1,9 @@
 {
   "name": "json",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "nodemon --inspect ./index.js",
+    "start": "nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/namvthe163258/Project_JS#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "ejs": "3.1.8",
     "express": "^4.18.2",
     "pg": "^8.11.2",
     "typeorm": "^0.3.17"
