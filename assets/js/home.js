@@ -134,7 +134,7 @@ btnClear_cart.addEventListener('click', () => {
   subProducts.forEach(idProduct => {
   const id = idProduct.dataset.id;
   idProduct.addEventListener('click', () => {
-    const url = `./product_details.html?id=${id}`
+    const url = `/product_details.html?id=${id}`
     window.location.href = url;
   });
 });
